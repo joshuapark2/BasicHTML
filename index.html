@@ -1,0 +1,73 @@
+<!--
+How does the server know which html to pick?
+	By default its index.html 
+	Think about index.html as the homepage.
+Relative vs Absolute path - file: vs https:
+	file: protocal can't be accessed outside of the computer. This is called a relative path.
+	https: is how we access websites across the internet.
+	This is called an absolute path.
+-->
+
+<!DOCTYPE html>
+<html> <!–– defining that this is an html -->
+	<head> <!–– definint head with title -->
+		<title>My first website!</title>
+	</head>
+	<body> <!–– body of html -->
+		<a href="newpage.html">New Page</a><br>
+		<a href="register.html">Register</a>
+		<!-- a = anchor tag, href = Hypertext REFerence -->
+		<!-- Always put a tag-->
+		<!-- control + / to create comments -->
+		<h1> Hello there!</h1>
+
+		<h2> Hello there!</h2>
+
+		<h6> Hello there!</h6> <!-- These are header tags -->
+		<p> This is a paragraph text</p> <!-- this is a paragraph tag -->
+		<p> This is also a paragraph text</p>
+		<p> Have I mentioned that this is also a paragraph text</p>
+
+		<p><b> Lorem ipsum </b> dolor <strong>sit amet,</strong> consectetur adipisicing elit, sed do eiusmod
+		tempor <em>incididunt</em> ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+		<!-- This is a Lorem trick. -->
+
+		<h1> Ordered List </h1>
+			<ol>
+				<li> banana </li>
+				<li> apple </li>
+				<li> orange </li>
+			</ol>
+
+		<h1> Unordered List </h1>
+			<ul>
+				<li> banana </li>
+				<li> apple </li>
+				<li> orange </li>
+			</ul>
+
+		<h1> Unordered Nested List </h1>
+			<ul>
+				<li> banana </li>
+				<li> apple </li>
+				<ul>
+					<li> fuji </li>
+					<img src="https://img.imageboss.me/fourwinds/width/425/dpr:2/s/files/1/2336/3219/products/fuji.jpg?v=1538674924" width="42" height="42">
+					<br>
+					<li> honey crisp </li>
+					<img src="https://images.albertsons-media.com/is/image/ABS/184020020?$ecom-pdp-desktop$&defaultImage=Not_Available&defaultImage=Not_Available" width="42" height="42">
+					<!-- image tag is an example of a self-closing tag with attributes of source, width, and height. -->
+				</ul>
+				<li> orange </li>
+				<hr>
+			</ul>
+	</body>
+<html>
+<!–– Above is the rule that every HTML file must follow. A hotkey for this is typing "html" and then tabbing.
+What we've done is similar to what a server does. Server sends us an html file back. This is basically what we did here.
+Browsers are built to read html files.
+-->
