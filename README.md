@@ -6,6 +6,10 @@ At the Georgia Institute of Technology, I've already had exposure to basic HTML 
 
 Below, I'll provide pictures to the 3 HTML sites that I've created as well as explanation to the code that I've created.
 
+## Home page (Included CSS text color and background)
+![image](https://user-images.githubusercontent.com/88602267/154535491-98663457-8951-4633-8b68-dfd8e458452e.png)
+
+
 ## Home page (index.html)
 ![image](https://user-images.githubusercontent.com/88602267/148469344-9b4f0ec3-fef9-4612-a0e7-a5a3ec0e6cc6.png)
 In the index.html file, I've commented on my learning process and shown the technical side of the coding process. The overarching theme that I've learned from index.html is that every HTML file needs the following tags below.
